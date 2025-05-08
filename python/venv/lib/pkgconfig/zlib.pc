@@ -1,0 +1,13 @@
+prefix=/Users/razaabidi/Developer/data analyts bootcamp/python/venv
+exec_prefix=/Users/razaabidi/Developer/data analyts bootcamp/python/venv
+libdir=/Users/razaabidi/Developer/data analyts bootcamp/python/venv/lib
+sharedlibdir=/Users/razaabidi/Developer/data analyts bootcamp/python/venv/lib
+includedir=/Users/razaabidi/Developer/data analyts bootcamp/python/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
